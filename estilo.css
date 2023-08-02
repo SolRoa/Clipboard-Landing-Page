@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-size: 18px; 
+}
+.hero{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+}
+.hero h1{
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 55%;
+    text-align: center;
+    font-size: 40px;
+}
+.hero p{
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.contenedor-p{
+    text-align: center;
+    width: 55%;
+}
+.botones{
+    text-align: center;
+    width: 55%;
+}
+button{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 2em;
+    border: none;
+}
+.bot1{
+    font-size: 15px;
+    color: white;
+    background-color: #27BBA4;
+    border-bottom: 3px outset #27BBA4;
+    margin-right: 5px;
+}
+.bot2{
+    font-size: 15px;
+    color: white;
+    background-color: #6174FF;
+    border-bottom: 3px outset #6174FF;
+    margin-left: 5px;
+}
