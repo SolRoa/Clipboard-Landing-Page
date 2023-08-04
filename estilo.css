@@ -1,7 +1,11 @@
 body{
     margin: 0;
+    padding: 0;
     font-size: 18px; 
 }
+
+
+/* trabajo en la seccion hero */
 .hero{
     background-image: url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
@@ -10,6 +14,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 8%;
+    background-color: #6174FF;
 }
 .hero h1{
     color: hsl(210, 10%, 33%);
@@ -55,4 +60,87 @@ button{
     background-color: #6174FF;
     border-bottom: 3px outset #6174FF;
     margin-left: 5px;
+}
+
+
+
+/* trabajo en la seccion track-of */
+.track-of{
+    padding-bottom: 8%;
+}
+.track-of h1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.track-of p{
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.contenedor-p2{
+    margin: 0 auto;
+    text-align: center;
+    width: 54%;
+}
+.contenedor-img-texto{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.contendor-img{
+    margin-left: -75px;
+}
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    margin-right: 185px;
+}
+.texto{
+    margin-bottom: 25px;
+}
+.texto h3{
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 0;
+}
+.texto p{
+    margin-top: 10px;
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+
+/* trabajo en la seccion acess-clipbard */
+.access-clipboard{
+    padding-bottom: 8%;
+}
+.access-clipboard h1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.access-clipboard p{
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.devices{
+    margin-top: 50px;
+ /* preguntar por que la imagen tiene ese tamaño, como arreglarlo */
+}
+.contenedor-tablet{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.your-workflow{
+    margin-top: 0;
+    background-color: #27BBA4;
 }
