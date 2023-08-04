@@ -185,4 +185,26 @@ button{
 
 
 
-trabajo 
+/* trabajo en la seccion clipboard-for */
+.clipboard-for{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8%;
+}
+.clipboard-for h1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.clipboard-for p{
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+
+/* trabajo en el footer */
