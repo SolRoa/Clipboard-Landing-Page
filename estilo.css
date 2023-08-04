@@ -140,7 +140,49 @@ button{
 
 
 
+/* trabajo en la seccion your-workflow */
 .your-workflow{
-    margin-top: 0;
-    background-color: #27BBA4;
+    padding-bottom: 8%;
 }
+.your-workflow h1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.your-workflow p{
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    /* aca achico la letra?*/
+}
+.contenedor-p3{
+    margin: 0 auto;
+    text-align: center;
+    width: 54%;
+}
+.contendor-tools{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+/* 32  32 */
+.tool{
+    width: 30%;
+    text-align: center;
+}
+.tool h3{
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 0;
+}
+.logos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  /* porque se estiran las imagenes */
+}
+
+
+
+trabajo 
