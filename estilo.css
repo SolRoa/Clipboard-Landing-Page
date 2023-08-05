@@ -14,7 +14,6 @@ body{
     align-items: center;
     justify-content: center;
     padding: 8%;
-    background-color: #6174FF;
 }
 .hero h1{
     color: hsl(210, 10%, 33%);
@@ -208,3 +207,34 @@ button{
 
 
 /* trabajo en el footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F6F8;
+}
+.logo{
+    transform: scale(.5);
+    margin-left: 70px;
+}
+.renglon1{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 170px;
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.renglon2{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.contenedor-redes{
+    margin-right: 110px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
