@@ -153,7 +153,6 @@ button{
 .your-workflow p{
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
-    /* aca achico la letra?*/
 }
 .contenedor-p3{
     margin: 0 auto;
@@ -165,7 +164,6 @@ button{
     display: flex;
     justify-content: center;
 }
-/* 32  32 */
 .tool{
     width: 30%;
     text-align: center;
