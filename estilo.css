@@ -45,6 +45,7 @@ button{
     padding-right: 35px;
     border-radius: 2em;
     border: none;
+    cursor: pointer;
 }
 .bot1{
     font-size: 15px;
@@ -52,6 +53,10 @@ button{
     background-color: #27BBA4;
     border-bottom: 3px outset #27BBA4;
     margin-right: 5px;
+    transition: .5s;
+}
+.bot1:hover{
+    background-color: #5CCDBB;
 }
 .bot2{
     font-size: 15px;
@@ -59,8 +64,11 @@ button{
     background-color: #6174FF;
     border-bottom: 3px outset #6174FF;
     margin-left: 5px;
+    transition: .5s;
 }
-
+.bot2:hover{
+    background-color: #8A96FE;
+}
 
 
 /* trabajo en la seccion track-of */
@@ -91,6 +99,15 @@ button{
 .contendor-img{
     margin-left: -75px;
 }
+.img-compu{
+ width: 752px;
+ height: 572px;
+ transition: .5s;
+}
+.img-compu:hover{
+    width: 802px;
+    height: 622px;
+}
 .contenedor-texto{
     display: flex;
     flex-direction: column;
@@ -110,7 +127,15 @@ button{
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
 }
-
+.img-tablet{
+    width: 905px;
+    height: 575px;
+    transition: .5s;
+}
+.img-tablet:hover{
+    width: 955px;
+    height: 625px;
+}
 
 
 /* trabajo en la seccion acess-clipbard */
@@ -222,6 +247,13 @@ footer{
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
 }
+.renglon1 p{
+    transition: .5s;
+    cursor: pointer;
+}
+.renglon1 p:hover{
+    color: #27BAA6;
+}
 .renglon2{
     display: flex;
     justify-content: space-between;
@@ -229,10 +261,36 @@ footer{
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
 }
+.renglon2 p{
+    transition: .5s;
+    cursor: pointer;
+}
+.renglon2 p:hover{
+    color: #27BAA6;
+}
 .contenedor-redes{
     margin-right: 110px;
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+}
+.facebook path{
+    transition: .5s;
+}
+.facebook path:hover{
+    fill: #27BAA6;
+}
+.twitter path{
+    transition: .5s;
+}
+.twitter path:hover{
+    fill: #27BAA6;
+}
+.instagram path{
+  transition: .5s;
+}
+.instagram path:hover{
+    fill: #27BAA6;
 }
